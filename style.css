@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, #949494, black);
+    background: linear-gradient(to right, #504f4f, rgb(15, 15, 15));
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -42,4 +42,13 @@ h1{
 #more{
     display: none;
     transition: all 0.5s ease;
+}
+#btn{
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #504f4f;
+    color: #fff;
 }
